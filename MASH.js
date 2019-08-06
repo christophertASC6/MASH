@@ -1,27 +1,3 @@
-//var readline = require('readline');
-
-//var rl = readline.createInterface({
-    //input: process.stdin,
-   // output: process.stdout
- // });
-
-
-
-  //rl.question("Enter the types of your homes: ", function(answer) {
-    // TODO: Log the answer in a database
-    //var homes = (answer.split(" "));
-    //console.log(homes);
-    
-   // rl.close();
- // });
-
- const readline = require('readline');
-
- const rl = readline.createInterface({
-   input: process.stdin,
-   output: process.stdout
- });
- 
  rl.question('What do you think of Node.js? ', (answer) => {
    // TODO: Log the answer in a database
    console.log(`Thank you for your valuable feedback: ${answer}`);
